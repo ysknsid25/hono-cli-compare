@@ -1,0 +1,9 @@
+{
+  "name": "hono-cli-compare",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "current",
+    "next"
+  ]
+}

@@ -1,0 +1,5 @@
+{"path":"/users","expect":{"status":200}}
+{"method":"POST","path":"/users","headers":{"Content-Type":"application/json"},"body":{"name":"Momo"},"expect":{"status":201,"body":{"name":"Momo"}},"save":{"id":".id"}}
+{"path":"/users/{{id}}","expect":{"status":200,"body":{"name":"Momo"}}}
+{"method":"DELETE","path":"/users/{{id}}","expect":{"status":204}}
+{"path":"/users/{{id}}","expect":{"status":404}}

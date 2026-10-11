@@ -1,0 +1,11 @@
+{
+  "name": "current",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "hono": "^4"
+  },
+  "devDependencies": {
+    "@hono/cli": "0.1.11"
+  }
+}
